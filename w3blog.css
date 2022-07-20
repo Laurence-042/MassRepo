@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1100px){
+  .hi-blog-personal-detail-rightpanel {
+    display: none;
+  }
+  .table-of-content {
+    display: none;
+  }
+}
+.hi-blog-personal-detail-content{
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    float:none !important;
+    width:50% !important;
+}
+.hi-blog-personal-detail-leftpanel{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+    width: 100%;
+}
+.hi-blog-personal-detail-rightpanel{
+    position:fixed !important;
+    z-index: 999 !important;
+    right: 0px !important;
+    top: 120px !important;
+    width:20% !important;
+}
+.table-of-contents {
+    position: fixed !important;
+    z-index: 999 !important;
+    left: 5vh !important;
+    top: 120px !important;
+    width:20% !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 80%;
+}
